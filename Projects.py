@@ -1,0 +1,23 @@
+while True:
+
+    num1 = int(input("Enter first number Or just type Exit to leave: "))
+    if num1 == exit:
+        break
+
+    num2 = int(input("Enter second number: "))
+
+    if num1 > num2:
+        print("First number is greater")
+    elif num2 > num1:
+        print("Second number is greater")
+    else:
+        print("Both numbers are equal")
+
+
+
+
+
+
+
+
+6
